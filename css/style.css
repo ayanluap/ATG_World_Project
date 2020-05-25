@@ -1,0 +1,158 @@
+/* Reset Default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utility */
+
+.btn-secondary {
+  background-color: #edeef0;
+  border-color: #edeef0;
+  color: #000;
+}
+
+.btn:focus,
+a:focus,
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.active {
+  border-bottom: 1px solid #000;
+}
+
+.container {
+  padding: 0;
+}
+
+.card {
+  margin: 1.5rem 0 0 0;
+}
+
+.card:last-child {
+  margin-bottom: 5rem;
+}
+
+.card-footer {
+  background-color: #fff;
+  border-top: none;
+}
+
+.fa-ellipsis-h {
+  cursor: pointer;
+}
+
+.fixed-bottom i {
+  border-radius: 1000px;
+  cursor: pointer;
+  background: linear-gradient(180deg, #ff5c5c, #f0568a);
+}
+
+.fixed-bottom i:hover {
+  opacity: 0.8;
+}
+
+.text-truncate {
+  font-size: 1.5rem;
+}
+
+.fa-ellipsis-h {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.fa-ellipsis-h:hover {
+  transform: scale(2);
+}
+
+/* NAVIGATION-BAR */
+
+#navigation .custom-container {
+  width: 90%;
+  margin: auto;
+}
+/* Logo */
+
+#navigation .custom-container .logo {
+  font-size: 2rem;
+  color: #5c5d5d;
+}
+
+#navigation .custom-container .logo .logo-txt {
+  color: #27a365;
+}
+
+#navigation .custom-container .search-box {
+  max-width: 23rem;
+}
+
+#navigation
+  .custom-container
+  .search-box
+  .input-group-prepend
+  .input-group-text,
+#navigation .custom-container .search-box input {
+  background-color: #f4f4f4;
+  border: 0px solid;
+}
+
+#navigation
+  .custom-container
+  .search-box
+  .input-group-prepend
+  .input-group-text {
+  border-radius: 1000px 0 0 1000px;
+  color: #5c5c5c;
+}
+
+#navigation .custom-container .search-box input {
+  border-radius: 0 1000px 1000px 0;
+}
+
+#navigation .custom-container .search-box input:focus {
+  box-shadow: none;
+}
+
+#navigation .custom-container .log-in h5 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+/* HEADER */
+
+#header {
+  background: url('../images/header.png') no-repeat center center/cover;
+  height: 60vh;
+  padding: 0px;
+}
+
+#header .black-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+#header .black-overlay .container {
+  height: 100%;
+  padding: 1rem 0 2rem 0;
+}
+
+#header .black-overlay .container .header-down p {
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+#header .black-overlay .container .header-down p span {
+  font-size: 2.5rem;
+}
+
+/* Showcase heading */
+
+#showcase-head-1 .container .tab-links-1 a,
+#showcase-head-2 .container .tab-links-2 a {
+  color: #000;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
