@@ -1,6 +1,12 @@
 /* MEDIA QUERY */
 
 @media only screen and (min-width: 992px) {
+  .container {
+    padding: 0;
+    margin: auto;
+    width: 80%;
+  }
+
   #showcase-head-1 .container {
     border-bottom: 1px solid #e0e0e0;
     padding-bottom: 0.9rem;
@@ -49,12 +55,34 @@
 }
 
 @media only screen and (max-width: 991px) {
+  html,
+  body {
+    overflow: auto;
+    font-size: 12px;
+  }
+
+  .container {
+    padding: 0;
+    margin: auto;
+    width: 80%;
+  }
+
+  #header .black-overlay .container {
+    padding-top: 2rem;
+  }
+
   .card {
     border: none;
     box-shadow: 10px 10px 40px #bbbbbb;
   }
-  /* .col-md-12 {
+  .col-md-12 {
     margin: 0;
     padding: 0;
-  } */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .col-lg-8 {
+    padding: 0;
+  }
 }

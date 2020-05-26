@@ -29,10 +29,6 @@ a:focus,
   border-bottom: 1px solid #000;
 }
 
-.container {
-  padding: 0;
-}
-
 .card {
   margin: 1.5rem 0 0 0;
 }
