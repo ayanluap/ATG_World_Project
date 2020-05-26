@@ -21,6 +21,19 @@
     box-shadow: 1px 1px 50px #bbbbbb;
   }
 
+  #grp-list p {
+    font-weight: bolder;
+  }
+  #grp-list .list-group .list-group-item {
+    padding: 1rem 0;
+    border: none;
+    font-weight: 700;
+  }
+
+  .col-md-12 {
+    padding: 0;
+  }
+
   /* Right */
 
   #right .input-group {
@@ -67,6 +80,23 @@
     width: 90%;
   }
 
+  .float {
+    position: fixed;
+    width: 54px;
+    height: 54px;
+    bottom: 40px;
+    right: 40px;
+    background: linear-gradient(180deg, #ff5c5c 0%, #f0568a 100%);
+    color: #fff;
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.18);
+  }
+
+  .my-float {
+    margin-top: 15px;
+  }
+
   #header .black-overlay .container {
     padding: 2rem 0 5rem 0;
   }
@@ -98,5 +128,6 @@
   }
   #showcase-2 #card-4 .jumbo-4 {
     background-color: #fff;
+    padding: 0;
   }
 }
